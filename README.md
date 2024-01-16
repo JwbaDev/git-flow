@@ -1,4 +1,4 @@
-git-flow
+# Git-flow
 ========
 
 A collection of Git extensions to provide high-level repository operations
@@ -6,7 +6,7 @@ for Vincent Driessen's [branching model](http://nvie.com/git-model "original
 blog post").
 
 
-Getting started
+## Getting started
 ---------------
 For the best introduction to get started with `git flow`, please read Jeff
 Kreeftmeijer's blog post:
@@ -20,12 +20,12 @@ Or have a look at one of these screen casts:
 * [On the path with git-flow](http://codesherpas.com/screencasts/on_the_path_gitflow.mov) (by Dave Bock)
 
 
-Installing git-flow
+## Installing git-flow
 -------------------
 See the Wiki for up-to-date [Installation Instructions](https://github.com/nvie/gitflow/wiki/Installation).
 
 
-Integration with your shell
+## Integration with your shell
 ---------------------------
 For those who use the [Bash](http://www.gnu.org/software/bash/) or
 [ZSH](http://www.zsh.org) shell, please check out the excellent work on the
@@ -34,13 +34,13 @@ by [bobthecow](http://github.com/bobthecow). It offers tab-completion for all
 git-flow subcommands and branch names.
 
 
-FAQ
+## FAQ
 ---
 See the [FAQ](http://github.com/nvie/gitflow/wiki/FAQ) section of the project
 Wiki.
 
 
-Please help out
+## Please help out
 ---------------
 This project is still under development. Feedback and suggestions are very
 welcome and I encourage you to use the [Issues
@@ -53,7 +53,7 @@ contributors, please see the [AUTHORS](AUTHORS) file.
 Any questions, tips, or general discussion can be posted to our Google group:
 [http://groups.google.com/group/gitflow-users](http://groups.google.com/group/gitflow-users)
 
-Contributing
+## Contributing
 ------------
 Fork the repository.  Then, run:
 
@@ -71,7 +71,7 @@ gitflow you're currently developing.
 
 When done, open a pull request to your feature branch.
 
-License terms
+## License terms
 -------------
 git-flow is published under the liberal terms of the BSD License, see the
 [LICENSE](LICENSE) file. Although the BSD License does not require you to share
@@ -80,7 +80,7 @@ invited to contribute back your modifications to the community, preferably
 in a Github fork, of course.
 
 
-### Initialization
+## Initialization
 
 To initialize a new repo with the basic branch structure, use:
   
@@ -94,7 +94,7 @@ those questions to accept the (sane) default suggestions.
 The ``-d`` flag will accept all defaults.
 
 
-### Creating feature/release/hotfix/support branches
+## Creating feature/release/hotfix/support branches
 
 * To list/start/finish feature branches, use:
   
@@ -133,7 +133,7 @@ The ``-d`` flag will accept all defaults.
   For support branches, the `<base>` arg must be a commit on `master`.
 
 
-Showing your appreciation
+## Showing your appreciation
 =========================
 A few people already requested it, so now it's here: a Flattr button.
 
